@@ -23,18 +23,18 @@ pre{ background:#0f172a; color:#e6eef8; padding:12px; border-radius:8px; overflo
 <body>
 <div class="container">
 <header>
-<h1>My Simple Page</h1>
+<h1>Збірна України з футболу</h1>
 <nav>
-<a href="#">Home</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
+<a href="#">Головна</a>
+<a href="#Team">Команда</a>
+<a href="#history">Історія</a>
 </nav>
 </header>
 
 <main style="margin-top:18px">
 <section class="card">
-<h2 id="welcome">Welcome!</h2>
-<p style="color:var(--muted)">This is a minimal HTML page with a bit of styling and a small script. Use it as a starter template.</p>
+<h2 id="welcome">Ласкаво просимо на офіційний сайт збірної України!</h2>
+<p style="color:var(--muted)">Тут ви знайдете інформацію про команду, історію клубу та останні новини.</p>
 <div class="actions">
 <button class="btn-primary" id="greetBtn">Greet me</button>
 <button class="btn-ghost" id="showCode">Show HTML sample</button>
@@ -43,13 +43,41 @@ pre{ background:#0f172a; color:#e6eef8; padding:12px; border-radius:8px; overflo
 </section>
 
 <section class="card" style="margin-top:18px">
-<h3 id="about">About this page</h3>
-<p style="color:var(--muted)">Built with semantic HTML, a tiny CSS block, and a few lines of JavaScript that demonstrate interactivity without frameworks.</p>
+<h3 id="history">Історія клубу</h3>
+<p style="color:var(--muted)">Збірна України з футболу була створена у 1992 році після вступу Федерації футболу України (ФФУ) до УЄФА та ФІФА. Перший матч новостворена команда провела 29 квітня 1992 року в Ужгороді проти збірної Угорщини, який завершився поразкою 1:3, а перший гол в історії збірної забив Іван Гецко.</p>
 </section>
 
 <section class="card" style="margin-top:18px">
-<h3 id="contact">Contact</h3>
-<p style="color:var(--muted)">Want changes? Edit the HTML directly or ask me to customize it for you.</p>
+<h3 id="Team">Команда</h3>
+<p style="color:var(--muted)">Воротарі
+Андрій Лунін («Реал», Іспанія)
+Анатолій Трубін («Бенфіка», Португалія)
+Дмитро Різник («Шахтар»)
+Захисники
+Валерій Бондар («Шахтар»)
+Микола Матвійенко («Шахтар»)
+Юхим Конопля («Шахтар»)
+Тарас Михавко («Динамо»)
+Олександр Тимчик («Динамо»)
+Ілля Забарний (ПСЖ, Франція)
+Олександр Сваток («Остін», США)
+Віталій Миколенко («Евертон», Англія)
+Півзахисники
+Олег Очеретько («Шахтар»)
+Георгій Судаков («Шахтар»)
+Артем Бондаренко («Шахтар»)
+Олексій Гуцуляк («Полісся»)
+Олександр Назаренко («Полісся»)
+Олександр Зінченко («Арсенал», Англія)
+Єгор Ярмолюк («Брентфорд», Англія)
+Іван Калюжний («Металіст 1925»)
+Микола Шапаренко («Динамо»)
+Віктор Циганков («Жирона», Іспанія)
+Олександр Зубков («Трабзонспор», Туреччина)
+Нападники
+Роман Яремчук («Олімпіакос», Греція)
+Артем Довбик («Рома», Італія)
+Владислав Ванат («Динамо»).</p>
 <pre id="codePreview" style="display:none">&lt;!-- example: put your snippet here --&gt;&#10;&lt;p&gt;Hello world&lt;/p&gt;</pre>
 </section>
 </main>
